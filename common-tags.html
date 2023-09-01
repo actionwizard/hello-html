@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Common Tags</title>
+  </head>
+  <body>
+    <nav>
+        <div class="menu">
+            <a href="#">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="register.html">Register</a> |
+            <a href="#top">Sign in</a>
+        </div>
+    </nav>
+
+    <Section>
+      <h1>Section Tag</h1>
+      <p>This is related to section 1</p>
+      <p>
+        The section tag is used to group content in a more specific way. Content
+        within section tag has a theme, usually indicated by the heading.
+      </p
+    </Section>
+    <section>
+      <h1>Section 2</h1>
+      <p>This is related to section 2</p>
+    </section>
+
+    <article>
+        <h1>Article Tag</h1>
+        <p>The article tag is even more specific than the section tag</p>
+    </article>
+
+    
+    <p>This is a paragraph of text that casually mentions a concept and continues explaining the main point</p>
+    <aside>
+        <h4>Concept Definition</h4>
+        <p>This goes over the concept mentioned in the paragraph to provide readers with further explanation if needed. However, it does not detract from the main content.</p>
+    </aside>
+
+    <figure>
+        <img src="images/IDSNlogo.png" width="50" height="50"/>
+        <figcaption>IBM Developer Skills Network Logo</figcaption>
+    </figure>
+
+    <canvas>
+        <p>This is a canvas tag</p>
+        Your browser does not support the canvas tag.
+    </canvas>
+    <script>
+        var canvas = document.getElementsByTagName("canvas")[0];
+        var context = canvas.getContext("2d");
+        context.fillRect(100, 0, 100, 100);
+    </script>
+    
+    <embed type="/html-hello-world.html" src="another_webpage.html">
+
+    <address>
+        <p>This is an address tag </p>
+        Contact us : at this work address
+    </address>
+
+
+
+  </body>
+</html>
