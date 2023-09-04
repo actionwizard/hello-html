@@ -67,4 +67,5 @@ fieldset button {
 
 fieldset button:hover {
   cursor: pointer;
+  color: aquamarine;
 }
